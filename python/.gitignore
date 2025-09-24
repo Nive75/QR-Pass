@@ -1,0 +1,4 @@
+files/beacon/*
+files/messages/*
+venv/
+__pycache__/
