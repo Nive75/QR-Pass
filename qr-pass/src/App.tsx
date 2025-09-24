@@ -1,8 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BeaconQR from "./components/BeaconQR";
+import ScanQR from "./components/ScanQR";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <>
-      <p>Hello world</p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/beacon" element={<BeaconQR />} />
+        <Route path="/scan" element={<ScanQR />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
