@@ -1,0 +1,14 @@
+{
+  "scripts": {},
+  "dependencies": {
+    "@noble/hashes": "^2.0.1",
+    "@scure/base": "^2.0.0",
+    "dexie": "^4.2.0",
+    "tweetnacl": "^1.0.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.20.5"
+  }
+}
